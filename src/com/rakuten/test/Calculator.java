@@ -2,6 +2,9 @@ package com.rakuten.test;
 
 public class Calculator {
 	
+	public Calculator() {
+		System.out.println("Constructor");
+	}
 	
 	int add(int a, int b) {
 		//business logic
