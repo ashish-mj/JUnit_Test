@@ -34,6 +34,7 @@ class CalculatorTest {
 	}
 	
 	@Test
+	@Tag("Prod")
 	void test_Product() {
 	  
 	  int a = c.multiply(10, 5);
